@@ -12,7 +12,7 @@ class Song
   end
   
   def artist_name
-    if self.artist.songs == []
+    if self.artist.songs
       nil
     else
       self.artist.name
